@@ -356,6 +356,7 @@ a {
     font-weight: 500;
     line-height: 1; /* 100% */
     letter-spacing: 0.14px;
+    white-space: nowrap;
 }
 
 .featured .item .icon {
