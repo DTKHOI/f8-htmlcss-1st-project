@@ -170,7 +170,20 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 96px;
+    margin-top: 70px;
+}
+
+.partner-row a {
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    height: 90px;
+    /* background-color: orange; */
+    border-radius: 12px;
+}
+
+.partner-row a:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 /* --------------- Guide ------------------ */
