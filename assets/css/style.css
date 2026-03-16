@@ -322,7 +322,7 @@ a {
     border-top-right-radius: 12px;
 }
 
-.featured .body {
+.featured .item .body {
     padding: 17px 20px 24px;
 }
 
@@ -334,22 +334,22 @@ a {
 }
 
 .featured .item .desc {
-    --line-clamp: 3;
     margin-top: 11px;
     color: #a3a6ab;
     font-size: 1.4rem;
     font-weight: 500;
-    word-break: break-all; /* khắc phục dòng mô tả là một đường link */
+    line-height: 1.5;
+    word-break: break-all; /* khắc phục dòng mô tả là một đường link dài */
 }
 
 .featured .item .info {
-    margin-top: 22px;
+    margin-top: 21px;
     display: flex;
     align-items: center;
 }
 
 .featured .item .label {
-    margin-left: 8px;
+    margin-left: 9px;
     color: #444;
     font-size: 1.4rem;
     font-style: normal;
